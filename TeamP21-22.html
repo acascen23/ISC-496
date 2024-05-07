@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Player Stats</title>
+	<link rel="stylesheet" href="nba.css">
+</head>
+<body>
+	<h1>NBA'S World</h1>
+	<nav role="navigation">
+    <ul>
+
+      <li><a href="nba1.html">Home</a></li>
+      <li><a href="PlayerP.html">Player Stats</a></li>
+      <li><a href="TeamP.html">Team Standings </a></li>
+      <li><a href="History.html">Team History</a></li>
+      <li><a href="AwardsHistory.html">Awards History</a></li>
+      <input type="text" id="searchInput" placeholder="Search...">
+      
+      
+
+
+    </ul>
+  </nav>
+
+
+
+<script src="nba.js"></script>
+
+      	
+      
+
+    </ul>
+    <nav role="navigation">
+    <ul>
+
+       <li><a href="TeamP.html">2023-24 Season</a></li>
+      <li><a href="TeamP22-23.html">2022-23 Season</a></li>
+      <li><a href="TeamP21-22.html">2021-22 Season </a></li>
+      <li><a href="TeamP20-21.html">2020-21 Season</a></li>
+      <li><a href="TeamP19-20.html">2019-20 Season</a></li>
+      
+      
+     
+
+    </ul>
+    
+   <h1>Team Standings for the  2021-22 Season </h1>
+
+
+
+
+   <h1>Eastern Conference Standings</h1>
+
+   <table>
+   	<table id="dataTable">
+    <tr>
+        <td>Eastern Conference</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W/L%</td>
+        <td>GB</td>
+        <td>PS/G</td>
+        <td>PA/G</td>
+        <td>SRS</td>
+    </tr>
+    <tr>
+        <td>Miami Heat*</td>
+        <td>53</td>
+        <td>29</td>
+        <td>0.646</td>
+        <td>—</td>
+        <td>110</td>
+        <td>105.6</td>
+        <td>4.23</td>
+    </tr>
+    <tr>
+        <td>Boston Celtics*</td>
+        <td>51</td>
+        <td>31</td>
+        <td>0.622</td>
+        <td>2.0</td>
+        <td>111.8</td>
+        <td>104.5</td>
+        <td>7.02</td>
+    </tr>
+    <tr>
+        <td>Milwaukee Bucks*</td>
+        <td>51</td>
+        <td>31</td>
+        <td>0.622</td>
+        <td>2.0</td>
+        <td>115.5</td>
+        <td>112.1</td>
+        <td>3.22</td>
+    </tr>
+    <tr>
+        <td>Philadelphia 76ers*</td>
+        <td>51</td>
+        <td>31</td>
+        <td>0.622</td>
+        <td>2.0</td>
+        <td>109.9</td>
+        <td>107.3</td>
+        <td>2.57</td>
+    </tr>
+    <tr>
+        <td>Toronto Raptors*</td>
+        <td>48</td>
+        <td>34</td>
+        <td>0.585</td>
+        <td>5.0</td>
+        <td>109.4</td>
+        <td>107.1</td>
+        <td>2.38</td>
+    </tr>
+    <tr>
+        <td>Chicago Bulls*</td>
+        <td>46</td>
+        <td>36</td>
+        <td>0.561</td>
+        <td>7.0</td>
+        <td>111.6</td>
+        <td>112</td>
+        <td>-0.38</td>
+    </tr>
+    <tr>
+        <td>Brooklyn Nets*</td>
+        <td>44</td>
+        <td>38</td>
+        <td>0.537</td>
+        <td>9.0</td>
+        <td>112.9</td>
+        <td>112.1</td>
+        <td>0.82</td>
+    </tr>
+    <tr>
+        <td>Cleveland Cavaliers</td>
+        <td>44</td>
+        <td>38</td>
+        <td>0.537</td>
+        <td>9.0</td>
+        <td>107.8</td>
+        <td>105.7</td>
+        <td>2.04</td>
+    </tr>
+    <tr>
+        <td>Atlanta Hawks*</td>
+        <td>43</td>
+        <td>39</td>
+        <td>0.524</td>
+        <td>10.0</td>
+        <td>113.9</td>
+        <td>112.4</td>
+        <td>1.55</td>
+    </tr>
+    <tr>
+        <td>Charlotte Hornets</td>
+        <td>43</td>
+        <td>39</td>
+        <td>0.524</td>
+        <td>10.0</td>
+        <td>115.3</td>
+        <td>114.9</td>
+        <td>0.53</td>
+    </tr>
+    <tr>
+        <td>New York Knicks</td>
+        <td>37</td>
+        <td>45</td>
+        <td>0.451</td>
+        <td>16.0</td>
+        <td>106.5</td>
+        <td>106.6</td>
+        <td>-0.01</td>
+    </tr>
+    <tr>
+        <td>Washington Wizards</td>
+        <td>35</td>
+        <td>47</td>
+        <td>0.427</td>
+        <td>18.0</td>
+        <td>108.6</td>
+        <td>112</td>
+        <td>-3.23</td>
+    </tr>
+    <tr>
+        <td>Indiana Pacers</td>
+        <td>25</td>
+        <td>57</td>
+        <td>0.305</td>
+        <td>28.0</td>
+        <td>111.5</td>
+        <td>114.9</td>
+        <td>-3.26</td>
+    </tr>
+    <tr>
+        <td>Detroit Pistons</td>
+        <td>23</td>
+        <td>59</td>
+        <td>0.28</td>
+        <td>30.0</td>
+        <td>104.8</td>
+        <td>112.5</td>
+        <td>-7.36</td>
+    </tr>
+    <tr>
+        <td>Orlando Magic</td>
+        <td>22</td>
+        <td>60</td>
+        <td>0.268</td>
+        <td>31.0</td>
+        <td>104.2</td>
+        <td>112.2</td>
+        <td>-7.67</td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <tr>
+        <td>Eastern Conference</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W/L%</td>
+        <td>GB</td>
+        <td>PS/G</td>
+        <td>PA/G</td>
+        <td>SRS</td>
+    </tr>
+    <tr>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+        <td>Atlantic Division</td>
+    </tr>
+    <tr>
+        <td>Boston Celtics*</td>
+        <td>51</td>
+        <td>31</td>
+        <td>.622</td>
+        <td>—</td>
+        <td>111.8</td>
+        <td>104.5</td>
+        <td>7.02</td>
+    </tr>
+    <tr>
+        <td>Philadelphia 76ers*</td>
+        <td>51</td>
+        <td>31</td>
+        <td>.622</td>
+        <td>—</td>
+        <td>109.9</td>
+        <td>107.3</td>
+        <td>2.57</td>
+    </tr>
+    <tr>
+        <td>Toronto Raptors*</td>
+        <td>48</td>
+        <td>34</td>
+        <td>.585</td>
+        <td>3.0</td>
+        <td>109.4</td>
+        <td>107.1</td>
+        <td>2.38</td>
+    </tr>
+    <tr>
+        <td>Brooklyn Nets*</td>
+        <td>44</td>
+        <td>38</td>
+        <td>.537</td>
+        <td>7.0</td>
+        <td>112.9</td>
+        <td>112.1</td>
+        <td>0.82</td>
+    </tr>
+    <tr>
+        <td>New York Knicks</td>
+        <td>37</td>
+        <td>45</td>
+        <td>.451</td>
+        <td>14.0</td>
+        <td>106.5</td>
+        <td>106.6</td>
+        <td>-0.01</td>
+    </tr>
+    <tr>
+        <td>Central Division</td>
+        <td>Central Division</td>
+        <td>Central Division</td>
+        <td>Central Division</td>
+        <td>Central Division</td>
+        <td>Central Division</td>
+        <td>Central Division</td>
+        <td>Central Division</td>
+    </tr>
+    <tr>
+        <td>Milwaukee Bucks*</td>
+        <td>51</td>
+        <td>31</td>
+        <td>.622</td>
+        <td>—</td>
+        <td>115.5</td>
+        <td>112.1</td>
+        <td>3.22</td>
+    </tr>
+    <tr>
+        <td>Chicago Bulls*</td>
+        <td>46</td>
+        <td>36</td>
+        <td>.561</td>
+        <td>5.0</td>
+        <td>111.6</td>
+        <td>112.0</td>
+        <td>-0.38</td>
+    </tr>
+    <tr>
+        <td>Cleveland Cavaliers</td>
+        <td>44</td>
+        <td>38</td>
+        <td>.537</td>
+        <td>7.0</td>
+        <td>107.8</td>
+        <td>105.7</td>
+        <td>2.04</td>
+    </tr>
+    <tr>
+        <td>Indiana Pacers</td>
+        <td>25</td>
+        <td>57</td>
+        <td>.305</td>
+        <td>26.0</td>
+        <td>111.5</td>
+        <td>114.9</td>
+        <td>-3.26</td>
+    </tr>
+    <tr>
+        <td>Detroit Pistons</td>
+        <td>23</td>
+        <td>59</td>
+        <td>.280</td>
+        <td>28.0</td>
+        <td>104.8</td>
+        <td>112.5</td>
+        <td>-7.36</td>
+    </tr>
+    <tr>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+        <td>Southeast Division</td>
+    </tr>
+    <tr>
+        <td>Miami Heat*</td>
+        <td>53</td>
+        <td>29</td>
+        <td>.646</td>
+        <td>—</td>
+        <td>110.0</td>
+        <td>105.6</td>
+        <td>4.23</td>
+    </tr>
+    <tr>
+        <td>Atlanta Hawks*</td>
+        <td>43</td>
+        <td>39</td>
+        <td>.524</td>
+        <td>10.0</td>
+        <td>113.9</td>
+        <td>112.4</td>
+        <td>1.55</td>
+    </tr>
+    <tr>
+        <td>Charlotte Hornets</td>
+        <td>43</td>
+        <td>39</td>
+        <td>.524</td>
+        <td>10.0</td>
+        <td>115.3</td>
+        <td>114.9</td>
+        <td>0.53</td>
+    </tr>
+    <tr>
+        <td>Washington Wizards</td>
+        <td>35</td>
+        <td>47</td>
+        <td>.427</td>
+        <td>18.0</td>
+        <td>108.6</td>
+        <td>112.0</td>
+        <td>-3.23</td>
+    </tr>
+    <tr>
+        <td>Orlando Magic</td>
+        <td>22</td>
+        <td>60</td>
+        <td>.268</td>
+        <td>31.0</td>
+        <td>104.2</td>
+        <td>112.2</td>
+        <td>-7.67</td>
+    </tr>
+</table>
+<br>
+
+<h1>Western Conference Standings</h1>
+
+<table>
+    <tr>
+        <td>Western Conference</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W/L%</td>
+        <td>GB</td>
+        <td>PS/G</td>
+        <td>PA/G</td>
+        <td>SRS</td>
+    </tr>
+    <tr>
+        <td>Phoenix Suns*</td>
+        <td>64</td>
+        <td>18</td>
+        <td>0.78</td>
+        <td>—</td>
+        <td>114.8</td>
+        <td>107.3</td>
+        <td>6.94</td>
+    </tr>
+    <tr>
+        <td>Memphis Grizzlies*</td>
+        <td>56</td>
+        <td>26</td>
+        <td>0.683</td>
+        <td>8.0</td>
+        <td>115.6</td>
+        <td>109.9</td>
+        <td>5.37</td>
+    </tr>
+    <tr>
+        <td>Golden State Warriors*</td>
+        <td>53</td>
+        <td>29</td>
+        <td>0.646</td>
+        <td>11.0</td>
+        <td>111</td>
+        <td>105.5</td>
+        <td>5.52</td>
+    </tr>
+    <tr>
+        <td>Dallas Mavericks*</td>
+        <td>52</td>
+        <td>30</td>
+        <td>0.634</td>
+        <td>12.0</td>
+        <td>108</td>
+        <td>104.7</td>
+        <td>3.12</td>
+    </tr>
+    <tr>
+        <td>Utah Jazz*</td>
+        <td>49</td>
+        <td>33</td>
+        <td>0.598</td>
+        <td>15.0</td>
+        <td>113.6</td>
+        <td>107.6</td>
+        <td>5.67</td>
+    </tr>
+    <tr>
+        <td>Denver Nuggets*</td>
+        <td>48</td>
+        <td>34</td>
+        <td>0.585</td>
+        <td>16.0</td>
+        <td>112.7</td>
+        <td>110.4</td>
+        <td>2.16</td>
+    </tr>
+    <tr>
+        <td>Minnesota Timberwolves*</td>
+        <td>46</td>
+        <td>36</td>
+        <td>0.561</td>
+        <td>18.0</td>
+        <td>115.9</td>
+        <td>113.3</td>
+        <td>2.53</td>
+    </tr>
+    <tr>
+        <td>Los Angeles Clippers</td>
+        <td>42</td>
+        <td>40</td>
+        <td>0.512</td>
+        <td>22.0</td>
+        <td>108.4</td>
+        <td>108.4</td>
+        <td>0.09</td>
+    </tr>
+    <tr>
+        <td>New Orleans Pelicans*</td>
+        <td>36</td>
+        <td>46</td>
+        <td>0.439</td>
+        <td>28.0</td>
+        <td>109.3</td>
+        <td>110.3</td>
+        <td>-0.84</td>
+    </tr>
+    <tr>
+        <td>San Antonio Spurs</td>
+        <td>34</td>
+        <td>48</td>
+        <td>0.415</td>
+        <td>30.0</td>
+        <td>113.2</td>
+        <td>113</td>
+        <td>0.02</td>
+    </tr>
+    <tr>
+        <td>Los Angeles Lakers</td>
+        <td>33</td>
+        <td>49</td>
+        <td>0.402</td>
+        <td>31.0</td>
+        <td>112.1</td>
+        <td>115.1</td>
+        <td>-3.08</td>
+    </tr>
+    <tr>
+        <td>Sacramento Kings</td>
+        <td>30</td>
+        <td>52</td>
+        <td>0.366</td>
+        <td>34.0</td>
+        <td>110.3</td>
+        <td>115.8</td>
+        <td>-5.26</td>
+    </tr>
+    <tr>
+        <td>Portland Trail Blazers</td>
+        <td>27</td>
+        <td>55</td>
+        <td>0.329</td>
+        <td>37.0</td>
+        <td>106.2</td>
+        <td>115.1</td>
+        <td>-8.55</td>
+    </tr>
+    <tr>
+        <td>Oklahoma City Thunder</td>
+        <td>24</td>
+        <td>58</td>
+        <td>0.293</td>
+        <td>40.0</td>
+        <td>103.7</td>
+        <td>111.8</td>
+        <td>-7.9</td>
+    </tr>
+    <tr>
+        <td>Houston Rockets</td>
+        <td>20</td>
+        <td>62</td>
+        <td>0.244</td>
+        <td>44.0</td>
+        <td>109.7</td>
+        <td>118.2</td>
+        <td>-8.26</td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <tr>
+        <td>Western Conference</td>
+        <td>W</td>
+        <td>L</td>
+        <td>W/L%</td>
+        <td>GB</td>
+        <td>PS/G</td>
+        <td>PA/G</td>
+        <td>SRS</td>
+    </tr>
+    <tr>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+        <td>Northwest Division</td>
+    </tr>
+    <tr>
+        <td>Utah Jazz*</td>
+        <td>49</td>
+        <td>33</td>
+        <td>.598</td>
+        <td>—</td>
+        <td>113.6</td>
+        <td>107.6</td>
+        <td>5.67</td>
+    </tr>
+    <tr>
+        <td>Denver Nuggets*</td>
+        <td>48</td>
+        <td>34</td>
+        <td>.585</td>
+        <td>1.0</td>
+        <td>112.7</td>
+        <td>110.4</td>
+        <td>2.16</td>
+    </tr>
+    <tr>
+        <td>Minnesota Timberwolves*</td>
+        <td>46</td>
+        <td>36</td>
+        <td>.561</td>
+        <td>3.0</td>
+        <td>115.9</td>
+        <td>113.3</td>
+        <td>2.53</td>
+    </tr>
+    <tr>
+        <td>Portland Trail Blazers</td>
+        <td>27</td>
+        <td>55</td>
+        <td>.329</td>
+        <td>22.0</td>
+        <td>106.2</td>
+        <td>115.1</td>
+        <td>-8.55</td>
+    </tr>
+    <tr>
+        <td>Oklahoma City Thunder</td>
+        <td>24</td>
+        <td>58</td>
+        <td>.293</td>
+        <td>25.0</td>
+        <td>103.7</td>
+        <td>111.8</td>
+        <td>-7.90</td>
+    </tr>
+    <tr>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+        <td>Pacific Division</td>
+    </tr>
+    <tr>
+        <td>Phoenix Suns*</td>
+        <td>64</td>
+        <td>18</td>
+        <td>.780</td>
+        <td>—</td>
+        <td>114.8</td>
+        <td>107.3</td>
+        <td>6.94</td>
+    </tr>
+    <tr>
+        <td>Golden State Warriors*</td>
+        <td>53</td>
+        <td>29</td>
+        <td>.646</td>
+        <td>11.0</td>
+        <td>111.0</td>
+        <td>105.5</td>
+        <td>5.52</td>
+    </tr>
+    <tr>
+        <td>Los Angeles Clippers</td>
+        <td>42</td>
+        <td>40</td>
+        <td>.512</td>
+        <td>22.0</td>
+        <td>108.4</td>
+        <td>108.4</td>
+        <td>0.09</td>
+    </tr>
+    <tr>
+        <td>Los Angeles Lakers</td>
+        <td>33</td>
+        <td>49</td>
+        <td>.402</td>
+        <td>31.0</td>
+        <td>112.1</td>
+        <td>115.1</td>
+        <td>-3.08</td>
+    </tr>
+    <tr>
+        <td>Sacramento Kings</td>
+        <td>30</td>
+        <td>52</td>
+        <td>.366</td>
+        <td>34.0</td>
+        <td>110.3</td>
+        <td>115.8</td>
+        <td>-5.26</td>
+    </tr>
+    <tr>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+        <td>Southwest Division</td>
+    </tr>
+    <tr>
+        <td>Memphis Grizzlies*</td>
+        <td>56</td>
+        <td>26</td>
+        <td>.683</td>
+        <td>—</td>
+        <td>115.6</td>
+        <td>109.9</td>
+        <td>5.37</td>
+    </tr>
+    <tr>
+        <td>Dallas Mavericks*</td>
+        <td>52</td>
+        <td>30</td>
+        <td>.634</td>
+        <td>4.0</td>
+        <td>108.0</td>
+        <td>104.7</td>
+        <td>3.12</td>
+    </tr>
+    <tr>
+        <td>New Orleans Pelicans*</td>
+        <td>36</td>
+        <td>46</td>
+        <td>.439</td>
+        <td>20.0</td>
+        <td>109.3</td>
+        <td>110.3</td>
+        <td>-0.84</td>
+    </tr>
+    <tr>
+        <td>San Antonio Spurs</td>
+        <td>34</td>
+        <td>48</td>
+        <td>.415</td>
+        <td>22.0</td>
+        <td>113.2</td>
+        <td>113.0</td>
+        <td>0.02</td>
+    </tr>
+    <tr>
+        <td>Houston Rockets</td>
+        <td>20</td>
+        <td>62</td>
+        <td>.244</td>
+        <td>36.0</td>
+        <td>109.7</td>
+        <td>118.2</td>
+        <td>-8.26</td>
+    </tr>
+</table>
+</nav>
+</body>
+</html>

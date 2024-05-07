@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('teams.jpg'), url('nbaw.jpg'); /* Replace 'background-image.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This creates the floating effect */
+  background-repeat: no-repeat, repeat-x;
+}
+
+
+.content {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+}
+
+
+/* Apply styles to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Apply styles to table headers (th) */
+th {
+  background-color: #8a42f5 ;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Apply styles to table cells (td) */
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Apply alternate row colors for better readability */
+tr:nth-child(even) {
+  background-color: #8a42f5;
+}
+
+tr:nth-child(odd) {
+  background-color: #428af5;
+}
+
+h1{
+    color:#8a42f5 ;
+    text-align: center;
+    font-family: 'Bradley Hand', cursive;;
+    text-shadow: #f5f7f7 2px 2px 3px;
+}
+h2{
+    color:black ;
+    text-align: center;
+    font-family: 'Bradley Hand', cursive;;
+    text-shadow: #f5f7f7 2px 2px 3px;
+}
+
+p{
+    color:red;
+    Font-family: 'Bradley Hand', cursive;;
+    text-shadow:#f5f7f7  2px 2px 3px;
+    text-align: center;
+}
+
+nav {
+    width:100%;
+}
+
+nav ul{
+  font-size: 1.4em;
+  color: Black;
+  margin:auto;
+  text-align: center;
+  padding:30px;
+  border-top: 1px solid black;
+  background-color:rgb(32, 42,68);
+   font-family:'Bradley Hand', cursive;;
+
+}
+
+nav ul li{
+  width:100%;
+  display: inline;
+  text-decoration: none;
+  margin: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:#8a42f5;
+  padding:30px;
+
+}
+
+nav ul li a:hover {
+  background:black;
+}
+
+
+.slider {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.active {
+  display: block;
+}
+
+
+const searchForm = document.getElementById('searchForm');
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+
+searchForm.addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  const searchTerm = searchInput.value.trim(); // Get the search term and remove leading/trailing spaces
+
+  if (searchTerm !== '') {
+    // Perform the search (in this example, just display the search term)
+    searchResults.innerHTML = `<p>Search results for: ${searchTerm}</p>`;
+  } else {
+    // Display a message if the search term is empty
+    searchResults.innerHTML = '<p>Please enter a search term.</p>';
+  }
+});
